@@ -1,7 +1,7 @@
 {
   "extends": "eslint-config-airbnb",
   "rules": {
-    "semi": 0,
+    "semi": [2, "never"],
     "eqeqeq": [2, "smart"],
     "no-eq-null": 0,
     "brace-style": [2, "stroustrup"],
