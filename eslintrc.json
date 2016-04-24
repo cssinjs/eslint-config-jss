@@ -11,7 +11,14 @@
     "no-param-reassign": 0,
     "guard-for-in": 0,
     "no-unexpected-multiline": 2,
-    "comma-dangle": 0
+    "comma-dangle": 0,
+    "no-restricted-syntax": [
+      2,
+      "DebuggerStatement",
+      "LabeledStatement",
+      "WithStatement"
+    ],
+    "object-curly-spacing": [2, "never"]
   },
   "plugins": [
     "react"
