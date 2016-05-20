@@ -31,5 +31,11 @@
     "__DEV__": true,
     "__TEST__": true,
     "process": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
   }
 }
