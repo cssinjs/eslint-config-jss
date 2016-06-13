@@ -1,4 +1,6 @@
-## Eslint config for jss projects.
+## Eslint config.
+
+It is used to maintain consistency across jsstyles projects, don't use it directly in your user projects.
 
 - Create a .eslintrc file
 - Put into it:
