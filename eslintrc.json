@@ -1,5 +1,4 @@
 {
-  "extends": "eslint-config-airbnb",
   "rules": {
     "semi": [2, "never"],
     "eqeqeq": [2, "smart"],

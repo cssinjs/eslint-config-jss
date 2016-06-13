@@ -9,7 +9,6 @@
   "peerDependencies": {
     "babel-eslint": "^6.0.3",
     "eslint": "^2.8.0",
-    "eslint-config-airbnb": "^8.0.0",
     "eslint-plugin-react": "^5.0.1"
   },
   "keywords": [
