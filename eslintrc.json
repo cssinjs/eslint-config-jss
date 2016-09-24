@@ -8,10 +8,7 @@
     "no-use-before-define": ["error", "nofunc"],
     "react/jsx-uses-react": "error",
     "react/jsx-filename-extension": "off",
-    "import/no-extraneous-dependencies": ["error", {
-      "devDependencies": ["**/*.test.js", "tests/**"],
-      "optionalDependencies": false
-    }],
+    "import/no-extraneous-dependencies": ["off"],
     "block-scoped-var": "off",
     "no-param-reassign": "off",
     "guard-for-in": "off",
