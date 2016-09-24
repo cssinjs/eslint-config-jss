@@ -1,26 +1,30 @@
 {
   "extends": "eslint-config-airbnb",
   "rules": {
-    "semi": [2, "never"],
-    "eqeqeq": [2, "smart"],
-    "no-eq-null": 0,
-    "brace-style": [2, "stroustrup"],
-    "no-use-before-define": [2, "nofunc"],
-    "react/jsx-uses-react": 2,
-    "react/jsx-filename-extension": 0,
-    "block-scoped-var": 0,
-    "no-param-reassign": 0,
-    "guard-for-in": 0,
-    "no-unexpected-multiline": 2,
-    "comma-dangle": 0,
+    "semi": ["error", "never"],
+    "eqeqeq": ["error", "smart"],
+    "no-eq-null": "off",
+    "brace-style": ["error", "stroustrup"],
+    "no-use-before-define": ["error", "nofunc"],
+    "react/jsx-uses-react": "error",
+    "react/jsx-filename-extension": "off",
+    "import/no-extraneous-dependencies": ["error", {
+      "devDependencies": ["**/*.test.js", "tests/**"],
+      "optionalDependencies": false
+    }],
+    "block-scoped-var": "off",
+    "no-param-reassign": "off",
+    "guard-for-in": "off",
+    "no-unexpected-multiline": "error",
+    "comma-dangle": "off",
     "no-restricted-syntax": [
-      2,
+      "error",
       "DebuggerStatement",
       "LabeledStatement",
       "WithStatement"
     ],
-    "object-curly-spacing": [2, "never"],
-    "no-plusplus": 0
+    "object-curly-spacing": ["error", "never"],
+    "no-plusplus": "off"
   },
   "plugins": [
     "react"
