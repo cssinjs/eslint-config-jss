@@ -21,7 +21,8 @@
       "WithStatement"
     ],
     "object-curly-spacing": ["error", "never"],
-    "no-plusplus": "off"
+    "no-plusplus": "off",
+    "no-continue": "off"
   },
   "plugins": [
     "react"
