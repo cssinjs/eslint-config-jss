@@ -1,15 +1,15 @@
 {
   "name": "eslint-config-jss",
   "description": "Eslint configuration for jss.",
-  "version": "2.4.0",
+  "version": "3.0.0",
   "author": {
     "name": "Oleg Slobodskoi",
     "email": "oleg008@gmail.com"
   },
   "peerDependencies": {
-    "babel-eslint": "^6.0.4",
+    "babel-eslint": "^7.1.0",
     "eslint": "^3.6.0",
-    "eslint-config-airbnb": "^11.2.0",
+    "eslint-config-airbnb": "^13.0.0",
     "eslint-plugin-react": "^6.3.0"
   },
   "keywords": [
@@ -24,6 +24,6 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:jsstyles/eslint-config-jss.git"
+    "url": "git@github.com:cssinjs/eslint-config-jss.git"
   }
 }
