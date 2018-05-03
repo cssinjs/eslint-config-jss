@@ -7,10 +7,10 @@
     "email": "oleg008@gmail.com"
   },
   "peerDependencies": {
-    "babel-eslint": "*",
-    "eslint": "*",
-    "eslint-config-airbnb": "*",
-    "eslint-plugin-react": "*"
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-react": "^7.7.0"
   },
   "keywords": [
     "eslint",

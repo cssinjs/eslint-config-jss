@@ -16,7 +16,6 @@
     "react/sort-comp": "warn",
     "react/no-will-update-set-state": "warn",
     "react/require-default-props": "warn",
-    "function-paren-newline": ["error", "consistent"],
     "import/no-extraneous-dependencies": ["off"],
     "import/extensions": ["off"],
     "block-scoped-var": "off",
@@ -33,10 +32,6 @@
     ],
     "no-return-assign": "warn",
     "object-curly-spacing": ["error", "never"],
-    "object-curly-newline": ["error", {
-      "multiline": true,
-      "consistent": true
-    }],
     "no-plusplus": "off",
     "no-continue": "off"
   },
