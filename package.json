@@ -6,11 +6,11 @@
     "name": "Oleg Slobodskoi",
     "email": "oleg008@gmail.com"
   },
+  "scripts": {
+    "lint": "eslint . -c index.js"
+  },
   "peerDependencies": {
-    "babel-eslint": "^7.1.0",
-    "eslint": "^3.6.0",
-    "eslint-config-airbnb": "^13.0.0",
-    "eslint-plugin-react": "^6.3.0"
+    "eslint": "^5.6.0"
   },
   "keywords": [
     "eslint",
@@ -25,5 +25,15 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:cssinjs/eslint-config-jss.git"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.0"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1"
   }
 }
